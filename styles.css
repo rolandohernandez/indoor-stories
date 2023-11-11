@@ -8,11 +8,12 @@
 }
 
 body {
-  font-family: 'Goudy Bookletter 1911';
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
-  padding: 0;
+  padding: 50px 0;
   margin: 0;
-  background-color: #fbfbfb;
+  background-color: #f9f9f9;
+  color: #000000;
 }
 
 a {
@@ -32,17 +33,11 @@ img {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 100px;
-  margin-bottom: 40px;
-  height: 60px;
-  background-color: #ffff;
-  box-shadow: rgb(155 155 155 / 16%) 0px 3px 6px, rgb(255 255 255 / 23%) 0px 3px 6px;
+  text-align: center;
 }
 
 .header-title {
+  text-transform: uppercase;
   font-size: 40px;
   margin: 0;
   line-height: 1;
@@ -54,13 +49,7 @@ img {
 }
 
 .menu {
-  list-style: none;
   padding: 0;
-  margin-top: 35px;
-  margin-bottom: 45px;
-  text-align: center;
-  font-size: 16px;
-  text-transform: uppercase;
 }
 
 .menu-item {
@@ -101,6 +90,21 @@ img {
 }
 
 /* Wall of Plays */
+
+.collection-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.collection-menu-item + .collection-menu-item {
+  margin-left: 20px;
+}
+
+.collection-menu-item.is-active {
+  font-weight: bold;
+}
 
 .collection {
   display: flex;
