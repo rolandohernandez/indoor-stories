@@ -1,13 +1,9 @@
 (function () {
-    // Menu
+    // Yearbooks: Menu
     $('.collection-menu-item').on('click', function () {
-        $('.collection-menu-item').removeClass('is-active');
-        $(this).addClass('is-active');
-        $('.collection').removeClass('is-active');
-        $($(this).data('collection')).addClass('is-active');
+        $('.collection-menu-item').removeClass('active');
+        $(this).addClass('active');
+        $('.collection').removeClass('active');
+        $($(this).data('collection')).addClass('active');
     });
-
-    // Player
-    var player = document.querySelector('#player');
-    var games = document.querySelectorAll('.game');
 })();

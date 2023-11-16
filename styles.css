@@ -1,15 +1,7 @@
-@font-face {
-  font-family: 'Goudy Bookletter 1911';
-  src: url('fonts/GoudyBookletter1911.woff2') format('woff2'),
-      url('fonts/GoudyBookletter1911.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+/* Global */
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   padding: 50px 0;
   margin: 0;
   background-color: #f9f9f9;
@@ -26,30 +18,28 @@ figure {
 }
 
 img {
-  display: block;
   max-width: 100%;
-  width: 100%;
-  height: 352px;
 }
+
+/* Header */
 
 .header {
   text-align: center;
 }
 
 .header-title {
-  text-transform: uppercase;
   font-size: 40px;
   margin: 0;
   line-height: 1;
 }
 
-.header-subtitle {
-  margin-top: 10px;
-  font-size: 17px;
-}
+/* Menu */
 
 .menu {
-  padding: 0;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 45px 0;
+  border: 1px solid black;
 }
 
 .menu-item {
@@ -64,32 +54,25 @@ img {
   margin-left: 15px;
 }
 
+/* Journal */
+
 .journal-entry {
-  max-width: 600px;
-  margin-left: 25px;
-  margin-right: 25px;
+  max-width: 500px;
+  margin: 0 auto;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.5;
+  border: 1px solid black;
 }
 
 .journal-entry-title {
-  text-align: center;
   margin: 0;
 }
 
-.journal-date {
-  text-align: center;
+.journal-entry-date {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.journal-entry-image {
-  border: 5px solid #dddddd;;
-}
-
-/* Wall of Plays */
+/* The Yearbooks */
 
 .collection-menu {
   display: flex;
@@ -98,11 +81,19 @@ img {
   padding: 0;
 }
 
+.collection-menu-item {
+  cursor: pointer;
+}
+
+.collection-menu-item:hover {
+  font-weight: bold;
+}
+
 .collection-menu-item + .collection-menu-item {
   margin-left: 20px;
 }
 
-.collection-menu-item.is-active {
+.collection-menu-item.active {
   font-weight: bold;
 }
 
@@ -121,18 +112,12 @@ img {
   visibility: hidden;
 }
 
-.collection.is-active {
+.collection.active {
   height: auto;
   opacity: 1;
   overflow: visible;
   visibility: visible;
   pointer-events: visible;
-}
-
-@media (max-width: 768px) {
-  .collection {
-    margin-top: 22px;
-  }
 }
 
 .game {
@@ -146,20 +131,15 @@ img {
 }
 
 .game-art img {
+  display: block;
+  width: 100%;
+  height: 352px;
   transition: all ease-in-out 300ms;
   box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .game.is-active .game-art img,
-  .game-art img:hover {
-    box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-    transform: translate(0px, -10px) scale(1);
-  }
-}
-
-.game-info::before {
+.game-number::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -169,7 +149,7 @@ img {
   font-size: 40px;
 }
 
-.game-info {
+.game-number {
   display: block;
   position: relative;
   left: 0;
