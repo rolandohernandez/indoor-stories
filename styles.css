@@ -278,11 +278,11 @@ img {
 }
 
 .header-byline {
-  margin: 0;
   font-size: 12px;
   text-align: right;
   margin-right: 17px;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /* Menu */
@@ -319,7 +319,7 @@ img {
 .journal-entry {
   text-align: left;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
   max-width: 650px;
   margin: 0 auto;
   padding: 20px 35px;
@@ -347,7 +347,10 @@ img {
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 20px 0 5px 0;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-bottom: 5px;
+  margin-right: 0;
   border: 2px solid black;
 }
 
@@ -369,9 +372,10 @@ img {
 .collection-intro {
   line-height: 2;
   max-width: 600px;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 .collection {
