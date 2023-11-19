@@ -233,8 +233,6 @@
   font-display: swap;
 }
 
-
-
 /* Global */
 
 body {
@@ -242,7 +240,10 @@ body {
   font-size: 18px;
   text-align: center;
   padding: 50px 0;
-  margin: 0;  
+  margin: 0;
+  background-color: hsla(0,0%,98.0392156862745%,1);
+  background-color: #F7FCFE;
+  background-color: #FBFAF5;
 }
 
 a {
@@ -287,46 +288,53 @@ img {
 /* Menu */
 
 .menu {
-  display: inline-block;
-  padding: 10px 20px;
-  margin: 45px auto;
-  border: 3px solid black;
+  display: inline-flex;
+  padding: 0;
+  margin: 45px auto 0 auto;
+  border: 2px solid black;
 }
 
 .menu-item {
   display: inline-block;
+  min-width: 100px;
+}
+
+.menu-item .menu-link {
+  display: inline-block;
+  padding: 10px;
 }
 
 .menu-item.active {
-  font-weight: bold;
-}
-
-.menu-item + .menu-item {
-  margin-left: 15px;
+  background-color: #000000;
+  color: #ffff;
 }
 
 /* Journal */
 
+.journal {
+  margin-top: 40px;
+}
+
 .journal-entry {
   text-align: left;
+  font-size: 16px;
   line-height: 1.6;
   max-width: 650px;
   margin: 0 auto;
   padding: 20px 35px;
-  border: 3px solid black;
-  background-color: #ffff;
+  border: 2px solid black;
   color: #000000;
+  box-shadow: 0px 17px 10px -10px rgb(0 0 0 / 10%);
 }
 
 .journal-entry-title {
-  text-align: center;
   font-weight: 900;
-  font-size: 22px;
+  font-size: 24px;
   margin: 0;
 }
 
 .journal-entry-date {
-  text-align: center;
+  font-size: 14px;
   display: block;
   margin-bottom: 20px;
 }
@@ -334,27 +342,27 @@ img {
 /* The Yearbooks */
 
 .collection-menu {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 20px 0 5px 0;
+  border: 2px solid black;
 }
 
 .collection-menu-item {
+  display: inline-block;
   cursor: pointer;
+  padding: 10px 20px;
 }
 
-.collection-menu-item:hover {
+.collection-menu-item:not(.active):hover {
   font-weight: bold;
-}
-
-.collection-menu-item + .collection-menu-item {
-  margin-left: 20px;
 }
 
 .collection-menu-item.active {
-  font-weight: bold;
+  background-color: black;
+  color: #ffff;
 }
 
 .collection {
@@ -395,7 +403,7 @@ img {
   width: 100%;
   height: 352px;
   transition: all ease-in-out 300ms;
-  box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+  box-shadow: 0px 17px 10px -10px rgb(0 0 0 / 32%);
 }
 
 .game-number::before {
@@ -416,4 +424,16 @@ img {
   height: 49px;
   width: 50px;
   margin: 22px auto 0 auto;
+}
+
+.game-text {
+  display: block;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 30px;
+  min-height: 51px;
+  max-height: 51px;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
 }
