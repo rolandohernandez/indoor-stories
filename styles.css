@@ -318,18 +318,17 @@ img {
 
 .journal-entry {
   text-align: left;
-  font-size: 17px;
-  line-height: 1.7;
-  max-width: 650px;
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 750px;
   margin: 0 auto;
   padding: 20px 35px;
-  border: 2px solid black;
   color: #000000;
-  box-shadow: 0px 17px 10px -10px rgb(0 0 0 / 10%);
+  border-bottom: 1px solid black;
 }
 
 .journal-entry + .journal-entry {
-  margin-top: 60px;
+  margin-top: 17px;
 }
 
 .journal-entry-title {
