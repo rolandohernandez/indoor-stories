@@ -241,8 +241,7 @@ body {
   text-align: center;
   padding: 50px 0;
   margin: 0;
-  background-color: hsla(0,0%,98.0392156862745%,1);
-  background-color: #F7FCFE;
+  background-color: #F3F3F2;
   background-color: #FBFAF5;
 }
 
@@ -328,7 +327,7 @@ img {
 }
 
 .journal-entry + .journal-entry {
-  margin-top: 17px;
+  margin-top: 14px;
 }
 
 .journal-entry-title {
