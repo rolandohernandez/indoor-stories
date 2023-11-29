@@ -326,6 +326,11 @@ img {
   border-bottom: 1px solid black;
 }
 
+.journal-entry img {
+  border: 1px solid #d4d4d4;
+  padding: 5px;
+}
+
 .journal-entry + .journal-entry {
   margin-top: 14px;
 }
