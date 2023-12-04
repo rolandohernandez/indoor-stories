@@ -218,6 +218,11 @@ img {
   border-bottom: 1px solid black;
 }
 
+.journal-entry a {
+  border-bottom: 1px solid #000000;
+  font-weight: bold;
+}
+
 .journal-entry + .journal-entry {
   margin-top: 14px;
 }
