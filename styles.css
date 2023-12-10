@@ -204,7 +204,7 @@ img {
 /* Journal */
 
 .journal {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .journal-entry {
@@ -216,6 +216,10 @@ img {
   padding: 20px 35px;
   color: #000000;
   border-bottom: 1px solid black;
+}
+
+.journal-entry:nth-child(1) {
+  padding-top: 0;
 }
 
 .journal-entry a {
