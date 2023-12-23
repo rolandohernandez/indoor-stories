@@ -236,6 +236,10 @@ img {
   padding-top: 0;
 }
 
+.journal-entry img {
+  width: 100%;
+}
+
 .journal-entry a {
   border-bottom: 1px solid #000000;
   font-weight: bold;
