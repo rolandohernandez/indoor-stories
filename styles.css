@@ -377,6 +377,12 @@ img {
   margin: 3.7% 3.4% 0 3.4%;
 }
 
+@media (max-width: 768px) {
+  .game {
+    pointer-events: none;
+  }
+}
+
 .game-art img {
   display: block;
   width: 100%;
