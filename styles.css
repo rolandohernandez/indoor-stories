@@ -404,3 +404,10 @@ img {
   font-size: 20px;
   margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+  .game-number {
+    margin-bottom: 10px;
+    display: block;
+  }
+}
