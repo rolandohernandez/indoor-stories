@@ -136,21 +136,6 @@ body {
   background-color: #FBFAF5;
 }
 
-/* body::before {
-  display: block;
-  content: '';
-  background-color: rgba(0,0,0,.38);
-  bottom: 0;
-  cursor: pointer;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  transform: translate3d(0, 0, 0);
-  will-change: opacity;
-} */
-
 a {
   color: inherit;
   text-decoration: none;
@@ -272,6 +257,14 @@ img {
   font-weight: 900;
   font-size: 24px;
   margin: 0;
+}
+
+.journal-entry-title a {
+  border-bottom: 0;
+}
+
+.journal-entry-title a:hover {
+  border-bottom: 1px solid black;
 }
 
 @media (max-width: 767px) {
