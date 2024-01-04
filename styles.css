@@ -245,8 +245,10 @@ img {
 }
 
 .journal-entry a {
-  border-bottom: 1px solid #000000;
-  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: grey;
 }
 
 .journal-entry + .journal-entry {
@@ -260,7 +262,7 @@ img {
 }
 
 .journal-entry-title a {
-  border-bottom: 0;
+  text-decoration: none;
 }
 
 .journal-entry-title a:hover {
