@@ -248,7 +248,12 @@ img {
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1.5px;
+  text-decoration-style: wavy;
   text-decoration-color: grey;
+}
+
+.journal-entry a:hover {
+  font-weight: bold;
 }
 
 .journal-entry + .journal-entry {
