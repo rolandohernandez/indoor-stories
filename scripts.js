@@ -1,5 +1,5 @@
 (function () {
-    // Yearbooks: Menu
+    // Compendium: Menu
     $('.collection-menu-item').on('click', function () {
         $('.collection-menu-item').removeClass('active');
         $(this).addClass('active');
