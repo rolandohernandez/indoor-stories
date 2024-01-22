@@ -1,139 +1,72 @@
-/* Fonts */
-
 @font-face {
-	font-family: 'Insolent';
-	src: url('fonts/insolent-webfont.woff2') format('woff2'), 
-  url('fonts/insolent-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-LightItalic.woff2') format('woff2'),
-      url('fonts/ApercuPro-LightItalic.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-BoldItalic.woff2') format('woff2'),
-      url('fonts/ApercuPro-BoldItalic.woff') format('woff');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-Bold.woff2') format('woff2'),
-      url('fonts/ApercuPro-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-Italic.woff2') format('woff2'),
-      url('fonts/ApercuPro-Italic.woff') format('woff');
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-MediumItalic.woff2') format('woff2'),
-      url('fonts/ApercuPro-MediumItalic.woff') format('woff');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-Light.woff2') format('woff2'),
-      url('fonts/ApercuPro-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-Medium.woff2') format('woff2'),
-      url('fonts/ApercuPro-Medium.woff') format('woff');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Apercu Pro Mono';
-  src: url('fonts/ApercuPro-Mono.woff2') format('woff2'),
-      url('fonts/ApercuPro-Mono.woff') format('woff');
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Regular.woff2') format('woff2'),
+      url('fonts/SFRounded-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Apercu Pro';
-  src: url('fonts/ApercuPro-Regular.woff2') format('woff2'),
-      url('fonts/ApercuPro-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Semibold.woff2') format('woff2'),
+      url('fonts/SFRounded-Semibold.woff') format('woff');
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Apercu Mono Pro';
-  src: url('fonts/ApercuMonoPro-Light.woff2') format('woff2'),
-      url('fonts/ApercuMonoPro-Light.woff') format('woff');
-  font-weight: 300;
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Heavy.woff2') format('woff2'),
+      url('fonts/SFRounded-Heavy.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Apercu Mono Pro';
-  src: url('fonts/ApercuMonoPro-Bold.woff2') format('woff2'),
-      url('fonts/ApercuMonoPro-Bold.woff') format('woff');
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Black.woff2') format('woff2'),
+      url('fonts/SFRounded-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Bold.woff2') format('woff2'),
+      url('fonts/SFRounded-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Apercu Mono Pro';
-  src: url('fonts/ApercuMonoPro-Medium.woff2') format('woff2'),
-      url('fonts/ApercuMonoPro-Medium.woff') format('woff');
+  font-family: 'SFRounded';
+  src: url('fonts/SFRounded-Medium.woff2') format('woff2'),
+      url('fonts/SFRounded-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Apercu Mono Pro';
-  src: url('fonts/ApercuMonoPro-Regular.woff2') format('woff2'),
-      url('fonts/ApercuMonoPro-Regular.woff') format('woff');
+  font-family: 'Monaspace Radon';
+  src: url('fonts/MonaspaceRadon-Italic.woff2') format('woff2'),
+      url('fonts/MonaspaceRadon-Italic.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
+  font-style: italic;
   font-display: swap;
 }
-
-/* Global */
 
 body {
-  font-family: 'Apercu Mono Pro';
-  font-size: 18px;
-  text-align: center;
-  padding: 50px 0;
   margin: 0;
-  background-color: #FBFAF5;
+  padding: 24px 34px;
+  font-family: 'SFRounded';
+  background-color: #FFFDFB;
+  color: #947F80;
 }
 
 a {
@@ -149,160 +82,110 @@ img {
   max-width: 100%;
 }
 
-/* Header */
-
 .header {
-  text-align: center;
-  max-width: 290px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 932px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 
 .header-title {
-	font-family: 'Insolent';
-  font-size: 68px;
-  font-weight: lighter;
-  max-width: 365px;
-  margin: 0 auto;
-  line-height: 0.9;
+  margin: 0;
+  max-width: 123px;
+  color: #613324;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.03em;
 }
 
-.header-byline {
-  font-size: 12px;
-  text-align: right;
-  margin-right: 17px;
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-
-/* Menu */
-
-.menu {
-  display: inline-flex;
+.header-menu {
+  display: flex;
+  list-style: none;
   padding: 0;
-  margin: 45px auto 0 auto;
-  border: 2px solid black;
-}
-
-.menu-item {
-  display: inline-block;
-  min-width: 100px;
-}
-
-.menu-item .menu-link {
-  display: inline-block;
-  padding: 10px 15px;
-  width: 110px;
-}
-
-@media (max-width: 768px) {
-  .menu-item .menu-link {
-    font-size: 16px;
-    padding: 6px 10px;
-  }
-}
-
-.menu-item.active {
-  background-color: #000000;
-  color: #ffff;
-}
-
-/* Journal */
-
-.journal {
-  margin-top: 30px;
-}
-
-@media (max-width: 768px) {
-  .journal {
-    margin-top: 19px;
-  }
-}
-
-.journal-entry {
-  text-align: left;
-  font-size: 16px;
-  line-height: 1.7;
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 20px 35px;
-  color: #000000;
-  border-bottom: 1px solid black;
-}
-
-@media (max-width: 768px) {
-  .journal-entry {
-    font-size: 15px;
-  }
-}
-
-.journal-entry:nth-child(1) {
-  padding-top: 0;
-}
-
-.journal-entry img {
-  width: 100%;
-}
-
-.journal-entry a {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1.5px;
-  text-decoration-style: wavy;
-  text-decoration-color: grey;
-}
-
-.journal-entry a:hover {
-  font-weight: bold;
-}
-
-.journal-entry + .journal-entry {
-  margin-top: 14px;
-}
-
-.journal-entry-title {
-  font-weight: 900;
-  font-size: 24px;
   margin: 0;
 }
 
-.journal-entry-title a {
-  text-decoration: none;
+.header-menu-item {
+  color: #947F80;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
 }
 
-.journal-entry-title a:hover {
-  border-bottom: 1px solid black;
+.header-menu-item.active {
+  color: #654949;
+  font-weight: 700;
 }
 
-@media (max-width: 767px) {
-  .journal-entry-title {
-    font-size: 20px;
-  }
+.header-menu-item + .header-menu-item {
+  margin-left: 25px;
+}
+
+.journal-entry + .journal-entry {
+  margin-top: 40px;
+}
+
+.journal-entry {
+  max-width: 637px;
+  padding: 60px 33px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 24px;
+  background-color: #FFF;
+  box-shadow: 0px 0px 24px 0px #E1D8C6;
+}
+
+.journal-entry p {
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .journal-entry-date {
-  font-size: 14px;
-  display: block;
-  margin-bottom: 20px;
+  padding: 0 30px;
+  font-family: 'Monaspace Radon';
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 10px;
+  letter-spacing: -0.03em;
+}
+
+.journal-entry-title {
+  padding: 0 30px;
+  margin: 22px 0 40px 0;
+  color: #613324;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+}
+
+.journal-entry-image {
+  border-radius: 24px;
 }
 
 .journal-entry-scrap {
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 /* Compendium */
 
 .collection-menu {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   list-style: none;
   padding: 0;
   margin-top: 30px;
-  margin-left: 0;
+  margin-left: auto;
   margin-bottom: 5px;
-  margin-right: 0;
-  border: 2px solid black;
+  margin-right: auto;
 }
 
 @media (max-width: 768px) {
@@ -324,18 +207,15 @@ img {
   }
 }
 
-.collection-menu-item:not(.active):hover {
-  font-weight: bold;
-}
-
 .collection-menu-item.active {
-  background-color: black;
+  background-color: #613324;
   color: #ffff;
 }
 
 .collection-intro {
   line-height: 2;
-  max-width: 600px;
+  font-weight: 600;
+  max-width: 500px;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -389,6 +269,7 @@ img {
   transition: all ease-in-out 300ms;
   filter: saturate(90%) contrast(85%);
   box-shadow: 0px 17px 10px -10px rgb(0 0 0 / 32%);
+  border-radius: 10px;
 }
 
 .game img:hover {
