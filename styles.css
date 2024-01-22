@@ -99,6 +99,7 @@ img {
   font-weight: 700;
   line-height: 36px;
   letter-spacing: -0.03em;
+  transform: rotate(-1.8deg);
 }
 
 .header-menu {
