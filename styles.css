@@ -4,7 +4,7 @@
       url('fonts/SFRounded-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
       url('fonts/SFRounded-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
       url('fonts/SFRounded-Heavy.woff') format('woff');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
       url('fonts/SFRounded-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -40,7 +40,7 @@
       url('fonts/SFRounded-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -49,7 +49,7 @@
       url('fonts/SFRounded-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 
 @font-face {
@@ -58,7 +58,7 @@
       url('fonts/MonaspaceRadon-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 
 body {
@@ -132,7 +132,7 @@ img {
 
 .journal-entry {
   max-width: 637px;
-  padding: 60px 33px;
+  padding: 48px 32px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 24px;
@@ -156,7 +156,7 @@ img {
   text-underline-offset: 3px;
   text-decoration-thickness: 1.5px;
   text-decoration-style: wavy;
-  text-decoration-color: grey;
+  text-decoration-color: rgba(97, 51, 36, 0.5);
 }
 
 .journal-entry-date {
