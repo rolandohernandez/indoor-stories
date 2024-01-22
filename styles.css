@@ -189,23 +189,27 @@ img {
   margin: 0 auto;
 }
 
-/* Compendium */
+.collection-intro {
+  line-height: 2;
+  font-size: 17px;
+  font-weight: 600;
+  max-width: 400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
 
 .collection-menu {
   display: flex;
   justify-content: center;
+  font-size: 17px;
   list-style: none;
   padding: 0;
   margin-top: 30px;
-  margin-left: auto;
+  margin-left: -45px;
   margin-bottom: 5px;
   margin-right: auto;
-}
-
-@media (max-width: 768px) {
-  .collection-menu {
-    margin-bottom: 23px;
-  }
 }
 
 .collection-menu-item {
@@ -214,33 +218,10 @@ img {
   padding: 10px 20px;
 }
 
-@media (max-width: 768px) {
-  .collection-menu-item {
-    font-size: 16px;
-    padding: 6px 20px;
-  }
-}
-
 .collection-menu-item.active {
   background-color: #613324;
+  border-radius: 50px;
   color: #ffff;
-}
-
-.collection-intro {
-  line-height: 2;
-  font-weight: 600;
-  max-width: 500px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
-  .collection-intro {
-    font-size: 16px;
-    max-width: 253px;
-  }
 }
 
 .collection {
@@ -297,11 +278,4 @@ img {
   font-weight: bold;
   font-size: 20px;
   margin-top: 30px;
-}
-
-@media (max-width: 768px) {
-  .game-number {
-    margin-bottom: 10px;
-    display: block;
-  }
 }
