@@ -84,7 +84,7 @@ img {
 
 ::selection {
   color: #ffff;
-  background: rgba(97, 51, 36, 0.6);
+  background: rgba(97, 51, 36, 0.5);
 }
 
 .header {
