@@ -82,6 +82,11 @@ img {
   max-width: 100%;
 }
 
+::selection {
+  color: #ffff;
+  background: rgba(97, 51, 36, 0.5);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
