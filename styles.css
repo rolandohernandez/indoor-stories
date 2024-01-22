@@ -150,6 +150,14 @@ img {
   line-height: 30px;
 }
 
+.journal-entry a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-style: wavy;
+  text-decoration-color: grey;
+}
+
 .journal-entry-date {
   padding: 0 30px;
   font-family: 'Monaspace Radon';
