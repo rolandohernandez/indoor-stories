@@ -224,7 +224,7 @@ img {
 }
 
 .collection-menu-item.active {
-  background-color: #613324;
+  background-color: rgba(97, 51, 36, 0.7);
   border-radius: 50px;
   color: #ffff;
 }
