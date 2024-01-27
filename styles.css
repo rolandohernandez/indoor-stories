@@ -69,6 +69,12 @@ body {
   color: #947F80;
 }
 
+@media (max-width: 768px) {
+  body {
+    padding: 45px 14px;
+  }
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -96,6 +102,12 @@ img {
   margin-bottom: 100px;
 }
 
+@media (max-width: 768px) {
+  .header {
+    margin-bottom: 45px;
+  }
+}
+
 .header-title {
   margin: 0;
   max-width: 123px;
@@ -112,6 +124,13 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .header-menu {
+    align-items: center;
+    padding-right: 11px;
+  }
 }
 
 .header-menu-item {
@@ -145,6 +164,12 @@ img {
   box-shadow: 0px 0px 24px 0px #E1D8C6;
 }
 
+@media (max-width: 768px) {
+  .journal-entry {
+    padding: 20px;
+  }
+}
+
 .journal-entry p:first-of-type {
   margin-top: 40px;
 }
@@ -154,6 +179,16 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .journal-entry p:first-of-type {
+    margin-top: 20px;
+  }
+  .journal-entry p {
+    padding: 0;
+    font-size: 16px;
+  }
 }
 
 .journal-entry p a {
@@ -174,6 +209,12 @@ img {
   letter-spacing: -0.03em;
 }
 
+@media (max-width: 768px) {
+  .journal-entry-date {
+    padding: 0;
+  }
+}
+
 .journal-entry-title {
   padding: 0 30px;
   margin: 22px 0 40px 0;
@@ -185,11 +226,26 @@ img {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .journal-entry-title {
+    font-size: 28px;
+    padding: 0;
+    margin: 10px 0;
+  }
+}
+
 .journal-entry-image {
   border-radius: 24px;
 }
 
+@media (max-width: 768px) {
+  .journal-entry-image {
+    border-radius: 14px;
+  }
+}
+
 .journal-entry-scrap {
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
