@@ -272,6 +272,13 @@ img {
   margin-right: auto;
 }
 
+@media (max-width: 768px) {
+  .collection-menu {
+    font-size: 14px;
+    margin-left: 0;
+  }
+}
+
 .collection-menu-item {
   display: inline-block;
   cursor: pointer;
@@ -340,4 +347,10 @@ img {
   font-weight: bold;
   font-size: 20px;
   margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .game-number::before {
+    margin-bottom: 12px;
+  }
 }
