@@ -129,7 +129,6 @@ img {
 @media (max-width: 768px) {
   .header-menu {
     align-items: center;
-    padding-right: 11px;
   }
 }
 
